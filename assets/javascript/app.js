@@ -16,6 +16,8 @@ $(document).ready(function() {
     //Creating an array of objects with the questions, answer options, and correct answer
     var questions = [
     {
+
+    // Mutiny, Title Origin, 1st game name, how to geat cameron's game, character (cast) names, lovelace, Gordon Clark - chronic toxic encephalopathy
         question: "Question goes here?",
         choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
         choicesAnswer: 0
@@ -23,25 +25,25 @@ $(document).ready(function() {
     {
         question: "Question goes here?",
         choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 0
+        choicesAnswer: 1
     },
     {
         question: "Question goes here?",
         choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 0
+        choicesAnswer: 2
     },
     {
         question: "Question goes here?",
         choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 0
+        choicesAnswer: 3
     },
     {
         question: "Question goes here?",
         choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 0
+        choicesAnswer: 1
     }];
     
-    //Function to submit answers
+    //Function to submit answers --- CAN I change this to ".click"???
     function submitAns() {
         $("#submit").on("click", function(e) {
             e.preventDefault();
