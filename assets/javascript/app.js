@@ -17,29 +17,33 @@ $(document).ready(function() {
     var questions = [
     {
 
-    // Mutiny, Title Origin, 1st game name, how to geat cameron's game, character (cast) names, lovelace, Gordon Clark - chronic toxic encephalopathy
-        question: "Question goes here?",
-        choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 0
-    },
-    {
-        question: "Question goes here?",
-        choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 1
-    },
-    {
-        question: "Question goes here?",
-        choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
-        choicesAnswer: 2
-    },
-    {
-        question: "Question goes here?",
-        choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
+    // how to beat cameron's game, character (cast) names, lovelace,
+        question: "What does the show's title, 'Halt and Catch Fire' mean?",
+        choices: ["The geeky way to stop, drop, and roll",
+        "In tech terms, telling a co-worker to go away", 
+        "The first computer ever created by woman", 
+        "a fictitious command that would make a machine's CPU self-destruct", 
+        "the paradox of life"],
         choicesAnswer: 3
     },
     {
-        question: "Question goes here?",
-        choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4", "Choice 5"],
+        question: "Which old school Atari game is Cameron playing when Joe approaches her in the arcade?",
+        choices: ["Dungeon Master", "Tempest", "Centipede", "Space Invaders", "Missile Command"],
+        choicesAnswer: 2
+    },
+    {
+        question: "_________ is the company that focuses on gaming and social networking, founded by Cameron Howe and Donna Clark?",
+        choices: ["Acuity", "Mutiny", "Euphony", "Congruity", "Impunity"],
+        choicesAnswer: 1
+    },
+    {
+        question: "What was the name of Mutiny's top game that Tom Rendon cloned and distributed for free?",
+        choices: ["Max Axe", "Earwax", "Poll Tax", "Parallax", "Syntax"],
+        choicesAnswer: 3
+    },
+    {
+        question: "What is Gordon Clark diagnosed with in Season 2?",
+        choices: ["fibrodysplasia ossificans progressiva", "chronic toxic encephalopathy", "mad cow disease", "ebola", "alice in wonderland syndrome"],
         choicesAnswer: 1
     }];
     
@@ -58,7 +62,7 @@ $(document).ready(function() {
     };
         
     //Creating question timer variables & functions
-    var timeLeft = 8;
+    var timeLeft = 20;
     var increment;
     
     function runTimer() {
@@ -80,7 +84,7 @@ $(document).ready(function() {
     };
     
     function resetTimer() {
-        timeLeft = 8;
+        timeLeft = 20;
         $("#time-left").html("Time remaining: " + timeLeft + " seconds");
     };
     
@@ -118,7 +122,7 @@ $(document).ready(function() {
     
     //Display start page
     function displayStart() {
-        $("#content").append('<a href="#" class="btn btn-primary btn-lg" id="start-button">' + "Start" + '</a>');
+        $("#content").append('<a href="#" class="btn btn-danger btn-lg" id="start-button">' + "Start" + '</a>');
         //Start game
         $("#start-button").on("click", function(event) {
             event.preventDefault();
