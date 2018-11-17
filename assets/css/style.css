@@ -4,12 +4,14 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: auto;
+	padding: 8%;
 }
 
 #heading {
 	font-weight: bold;
 	font-family: 'Source Code Pro', monospace;
 	color: whitesmoke
+	
 }
 
 
@@ -25,23 +27,18 @@
 	font-weight: bold;
 }
 
-
-
 .well {
 	font-family: 'Source Code Pro', monospace;
 	font-weight: bold;
 }
 
-
+/*spacing b/w radio buttons*/
+.twd-opt {
+	margin-right: 20px;
+}
 
 /*footer*/
 /* .footer {
 	padding: 30px 0;
 	text-align: right;
 } */
-
-
-/*spacing b/w radio buttons*/
-.twd-opt {
-	margin-right: 20px;
-}
