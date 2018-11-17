@@ -32,7 +32,7 @@ $(document).ready(function() {
         choicesAnswer: 2
     },
     {
-        question: "_________ is the company that focuses on gaming and social networking, founded by Cameron Howe and Donna Clark?",
+        question: "Founded by Cameron Howe and Donna Clark _________ is the company that focuses on gaming and social networking.",
         choices: ["Acuity", "Mutiny", "Euphony", "Congruity", "Impunity"],
         choicesAnswer: 1
     },
@@ -115,7 +115,7 @@ $(document).ready(function() {
         //Calling the function to display the response options
         createRadios();
         //Creating submit button
-        $("#submit-div").append('<button type="submit" class="btn btn-default" id="submit">' + "Submit" + '</button>');
+        $("#submit-div").append('<button type="submit" class="btn btn-danger" id="submit">' + "Submit" + '</button>');
         runTimer()
         submitAns();
     };
@@ -145,7 +145,7 @@ $(document).ready(function() {
     //Display end page
     function displayEnd() {
         clearQ();
-        $("#content").append('<h3>' + "Correct answers: " + correct + '</h3><br><h3>' + "Incorrect answers: " + incorrect + '</h3><br><h3>' + "Skipped questions: " + missed + '</h3><br><br><a href="#" class="btn btn-primary btn-lg" id="restart-button">' + "Restart Game" + '</a>');
+        $("#content").append('<h3>' + "Correct answers: " + correct + '</h3><br><h3>' + "Incorrect answers: " + incorrect + '</h3><br><h3>' + "Skipped questions: " + missed + '</h3><br><br><a href="#" class="btn btn-danger btn-lg" id="restart-button">' + "Restart Game" + '</a>');
         //Restart game
         $("#restart-button").on("click", function(event) {
             event.preventDefault();
