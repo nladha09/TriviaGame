@@ -14,6 +14,7 @@ $(document).ready(function() {
     var userAns = [];
     
     //Creating an array of objects with the questions, answer options, and correct answer
+    var images = ['../images/halt_and_catch_fire_intro.jpg', '../images/halt_and_catch_fire_centipede.jpg', '../images/halt-and-catch-fire_mutiny.jpg', '../images/halt-and-catch-fire_parallax.webp', '../images/halt-and-catch-fire_gordon.jpg',];
     var questions = [
     {
 
