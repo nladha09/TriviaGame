@@ -20,7 +20,7 @@ $(document).ready(function() {
     // how to beat cameron's game, character (cast) names, lovelace,
         question: "What does the show's title, 'Halt and Catch Fire' mean?",
         choices: ["The geeky way to stop, drop, and roll",
-        "In tech terms, telling a co-worker to go away", 
+        "In modern tech terms, telling a co-worker to go away",
         "The first computer ever created by woman", 
         "a fictitious command that would make a machine's CPU self-destruct", 
         "the paradox of life"],
