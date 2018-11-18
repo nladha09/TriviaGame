@@ -48,6 +48,10 @@
 /*spacing b/w radio buttons*/
 .twd-opt {
 	margin-right: 20px;
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+
 }
 
 /*footer*/
