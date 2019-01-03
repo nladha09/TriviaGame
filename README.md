@@ -1,5 +1,7 @@
 # TriviaGame
 
+[Trivia Game](https://nladha09.github.io/TriviaGame/)
+
 Trivia game made with jQuery and Bootstrap that shows only one question until the player answers it or their time runs out. (20 seconds)
 
 If the player selects the correct answer, a screen congratulates them for choosing the right option.
