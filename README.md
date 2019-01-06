@@ -1,4 +1,4 @@
-# TriviaGame
+# TriviaGame :question:
 
 [Trivia Game](https://nladha09.github.io/TriviaGame/)
 
