@@ -1,4 +1,4 @@
-# TriviaGame :question:
+# TriviaGame :floppy_disk:
 
 [Trivia Game](https://nladha09.github.io/TriviaGame/)
 
